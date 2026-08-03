@@ -223,12 +223,20 @@ body{
 }
 @media (max-width:768px){
 
-   body{
-    background-image: url("./Fondo Negro Mundial.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    
+  body{
+    font-family:"Jost",sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    min-height:100vh;
+    min-height:100dvh;
+
+    background-image:url("./Fondo Negro Mundial.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background: linear-gradient(135deg, #1f1f1f, #2d2d44, #151515);
   }
 
   .container {
