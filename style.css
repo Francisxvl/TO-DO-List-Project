@@ -230,32 +230,21 @@ body{
     
   }
 
-   .todo-app{
-    width:100%;
-    max-width:100px;
-    padding:20px;
-  }
-
-   .container {
+  .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  Width: 150%;
-  height: 100%;
-  padding: 25px 15px;
-}
 
-   .todos-container{
-    width: 50px;
-    min-height: 20px;
-    padding: 10px;
+  width:100%;
+  min-height:100vh;
+  padding:25px 15px;
   }
-
-  .Logo{
-   width: 180px;
-   height: auto;
-   margin-right: 20px;
-  }
+        
+    .Logo{
+    width: 180px;
+    height: auto;
+    margin-right: 20px;
+   }
 
    .logo-f-img{
     position: absolute;
@@ -264,20 +253,19 @@ body{
     width: 100px;
     z-index: 1000;
   }
-  
-  .todo-app {
-  width: 100%;
-  max-width: 400px;
+   .todo-app {
+  width: 210%;
+  max-width: 500px;
   padding: 2rem;
   display: flex;
-  flex-direction: column;
-  gap: 30px;
- 
-}
+  flex-direction: space-between;
+  gap: 50px;
+  border-radius: 50px;
+  }
 
    .todo-app h1{
    font-size: 1.6rem;
-   margin-left: 45px;
+   margin-left: 70px;
   }
 
   .details h3{
@@ -287,7 +275,7 @@ body{
 
   h1{
    font-size:2rem;
-   margin-top:15px;
+   margin-top: 10px;
   }
 
   .quote-box{
@@ -323,6 +311,7 @@ body{
  }
 
   .input-area input {
+   width: 300px;
    margin-left: -35px;
    font-size: 1rem;
  }
@@ -339,61 +328,23 @@ body{
    transition: all 0.2s ease;
  }
 
-   #task-list {
-   max-height: 400px;
-   overflow-y: auto;
- }
- 
-  #task-list li {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 8px 10px;
-  margin-bottom: 10px;
-  border-radius: 30px;
-  font-size: 1.2rem;
-  position: relative;
-  transition: box-shadow 0.2s ease;
+ #task-list li {
+    display: flex;
+    align-items: center;
+    width: 100%;
 
-  gap: 10px;
- }
+    padding: 10px 15px;
+    margin-bottom: 10px;
 
-  #task-list .checkbox {
-  min-width: 20px;
-  height: 20px;
-  background: transparent;
-  border-radius: 50%;
-  appearance: none;
-  cursor: pointer;
-  transition: all 0.2s ease;
- }
+    border-radius: 30px;
+    background: rgba(36, 32, 33, 0.3);
 
-  #task-list li span {
-  flex: 1;
-  margin-left: 10px;
-  overflow-wrap: anywhere;
- }
+    gap: 10px;
+}
 
-  .task-buttons {
-  display: flex;
-  gap: 10px;
-  margin-left: auto;
-  flex-shrink: 0;
- }
-
-  .task-buttons button {
-   background: transparent;
-   border: none;
-   border-radius: 50%;
-   width: 30px;
-   height: 30px;
-   color: #ffffff;
-   font-size: 0.8rem;
-   cursor: pointer;
-   font-size: 1.2rem;
-   transition: all 0.2s ease;
-   display: flex;
-   justify-content: center;
-   align-items: center;
- }
+#task-list li span {
+    flex: 1;
+    margin-left: 10px;
+    overflow-wrap: anywhere;
+}
 } 
