@@ -17,6 +17,7 @@ body{
     background-repeat:no-repeat;
     background-position:center;
     background-size:cover;
+    background: linear-gradient(135deg, #1f1f1f, #2d2d44, #151515);
 }
 .Logo {
   width: 180px;
@@ -55,7 +56,7 @@ body{
 .todo-app h1 {
   margin-left: 70px;
   font-size: 2rem;
-  color:rgba(175, 68, 68, 0.925)
+  color:#fffefeec
 
 }
 .stat-container {
@@ -73,7 +74,7 @@ body{
 }
 
 .details h3{
-  color: rgb(0, 0, 0);
+  color: rgba(255, 255, 255, 0.836);
 
 }
 #progressbar {
@@ -254,7 +255,7 @@ body{
     z-index: 1000;
   }
    .todo-app {
-  width: 210%;
+  width: 300%;
   max-width: 500px;
   padding: 2rem;
   display: flex;
